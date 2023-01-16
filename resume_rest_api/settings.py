@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-*l9agp#^sioz0(zxg^6l$zeksi56&^odb8@dnox%+nlp--!m#h
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'local host', 'pure-river-81433.herokuapp.com' 
+    'localhost', 'pure-river-81433.herokuapp.com' 
 ]
 
 
