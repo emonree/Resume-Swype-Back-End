@@ -11,3 +11,4 @@
 - 2 PM: heroku deployment and attempt to fix backports.zoneinfo issue.
 - 2:30 PM: fixed Procfile error.
 - 3:30 PM: attempt at fixing Heroku problems since Heroku kept crashing.
+- 7:56 PM: fixed allowed host issue with local host.
