@@ -5,9 +5,12 @@ class Resume(models.Model):
     name = models.CharField(max_length=32, blank=False)
     email = models.CharField(max_length=32, blank=False)
     phone = models.CharField(max_length=20, blank=False)
-    resume_url = models.TextField(blank=False)
+    resume_url = models.FileField(max_length=100)
     recruiter_notes = models.TextField(blank=True)
     recruiter_accepted = models.BooleanField()
+
+    # class Meta:
+    #     verbose_name_plural = 'Resumes'
 
 
 ### to view in python shell
