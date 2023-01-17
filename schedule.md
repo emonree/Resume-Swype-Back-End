@@ -12,3 +12,11 @@
 - 2:30 PM: fixed Procfile error.
 - 3:30 PM: attempt at fixing Heroku problems since Heroku kept crashing.
 - 7:56 PM: fixed allowed host issue with local host.
+----
+## January 17th, 2023:
+- Started at 10 AM and commited at 4:05 PM:
+- changed resume_url in models.py from TextField to FileField for uploading a file.
+- Consulted Alexis on how to get AWS S3 to work.
+- Created a test-project following this document: `https://www.section.io/engineering-education/how-to-upload-files-to-aws-s3-using-django-rest-framework/`
+- Created a .env file for environment variables to store my AWS secret key and access keys.
+- Added the necessary code into models.py, urls.py, views.py, and settings.py
