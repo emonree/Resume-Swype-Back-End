@@ -1,4 +1,4 @@
-# Resume-Swype-Back-End
+# Resume-Swype-Back-End using Django and Postgres
 
 ## What is AWS S3?
 - S3 is a service used for file storage for web apps.
